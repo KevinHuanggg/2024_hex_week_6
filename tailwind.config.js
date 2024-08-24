@@ -7,7 +7,7 @@ export default {
         'accent': {
           'ligjt': '#ffffff',
           DEFAULT: '#569573',
-          'dark': '#000000', 
+          'dark': '', 
         },
         'gray': {
           DEFAULT: '#343A40',
