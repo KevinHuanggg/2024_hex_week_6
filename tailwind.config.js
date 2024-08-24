@@ -5,12 +5,14 @@ export default {
     extend: {
       colors: {
         'accent': {
-          'ligjt': '#ffffff',
           DEFAULT: '#569573',
-          'dark': '', 
+          200: '#569573',
         },
         'gray': {
-          DEFAULT: '#343A40',
+          DEFAULT: '#343A40',          
+          200: '#DEE2E6',
+          300: '#ADB5BD',
+          500: '#343A40',
         }
       },
 
