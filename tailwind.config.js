@@ -4,6 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: '',
+          100: '#FFFDF5'
+        },
         'accent': {
           DEFAULT: '#569573',
           200: '#569573',
