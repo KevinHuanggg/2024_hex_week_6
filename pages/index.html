@@ -6,11 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
   </head>
-  <body>
+  <body class="bg-primary-100">
     <%- include('./layout/header'); -%>
-    <div class="container">
-      <h1 class="text-accent-200 text-[40px]">我是首頁</h1>
-    </div>
+
+    <!-- banner -->
+
+    <section class="lg:py-20">
+      <div class="bg-center bg-cover bg-banner-sm lg:bg-banner">
+        <div class="container pt-[377px] pb-12 text-white text-center lg:py-[228px] lg:ps-[61px] lg:text-start">
+          <p class="mb-2 font-bold lg:mb-3 lg:text-xl lg:font-black">獻給新世代的生活風格誌</p>
+          <p class="mb-5 text-3xl font-black lg:mb-6 lg:text-[40px]">一起探索生活的無限可能</p>
+          <button class="rounded-full bg-accent-200">
+            <a href="#" class="flex items-center justify-center px-5 py-3">
+              <p class="font-bold pe-3 lg:font-black">馬上訂閱</p>
+              <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="currentColor" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve">
+              <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255	s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0	c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/>
+              </svg>
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <%- include('./layout/footer'); -%>
 

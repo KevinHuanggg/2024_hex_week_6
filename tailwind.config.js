@@ -36,6 +36,11 @@ export default {
         "8xl": ["6rem", "1.5"],
         "9xl": ["8rem", "1.5"],
       },
+
+      backgroundImage: {
+        'banner-sm': "url('/assets/images/banner-sm.png')",
+        'banner': "url('/assets/images/banner.png')",
+      }
     },
     
     container: {
