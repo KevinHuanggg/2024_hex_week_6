@@ -6,7 +6,8 @@ export default {
       colors: {
         primary: {
           DEFAULT: '',
-          100: '#FFFDF5'
+          100: '#FFFDF5',
+          400: '#6E6B67',
         },
         'accent': {
           DEFAULT: '#569573',
