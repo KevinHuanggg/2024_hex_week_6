@@ -3,6 +3,11 @@ export default {
   content: ["./pages/**/*.html", "./layout/**/*.ejs", "./main.js"],
   theme: {
     extend: {
+
+      fontFamily: {
+        'serif': ['"Newsreader"', '"Noto Serif TC"', 'serif', 'ui-serif', 'Georgia', 'Cambria', '"Times New Roman"', 'Times, serif'],
+      },
+
       colors: {
         primary: {
           DEFAULT: '',
