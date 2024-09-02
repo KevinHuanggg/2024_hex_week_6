@@ -12,6 +12,7 @@ export default {
         primary: {
           DEFAULT: '',
           100: '#FFFDF5',
+          200: '#FFFBE5',
           300: '#E8E3DA',
           400: '#6E6B67',
         },
