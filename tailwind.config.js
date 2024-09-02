@@ -12,6 +12,7 @@ export default {
         primary: {
           DEFAULT: '',
           100: '#FFFDF5',
+          300: '#E8E3DA',
           400: '#6E6B67',
         },
         'accent': {
@@ -22,6 +23,7 @@ export default {
           DEFAULT: '#343A40',          
           200: '#DEE2E6',
           300: '#ADB5BD',
+          400: '#6C757D',
           500: '#343A40',
         }
       },
