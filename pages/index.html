@@ -126,7 +126,8 @@
         <div class="overflow-x-auto">
           <ul class="flex gap-6 mb-10 lg:mb-0">
             <li class="w-[324px] border-b border-gray-500 pb-6 flex-shrink-0">
-              <img src="../assets/images/articles-1-sm.png" alt="" class="mb-6">
+              <img src="../assets/images/articles-1-sm.png" alt="" class="mb-6 lg:hidden">
+              <img src="../assets/images/articles-1.png" alt="" class="hidden mb-6 lg:block">
               <div class="mb-6">
                 <h5 class="mb-2 text-xl font-black text-gray-500">私人島嶼的露營奇遇記</h5>
                 <p class="font-semibold text-gray-400">遠離塵囂,用全新的眼光重塑生活的舒適本味。徜徉在環山綠野間,在這處隱世私家別墅裡,盡情領略池畔優閒時光,任林間微風撫面,聆聽花鳥嘶啞之音,重拾內心深處的寧..</p>
@@ -136,7 +137,8 @@
               </div>
             </li>
             <li class="w-[324px] border-b border-gray-500 pb-6 flex-shrink-0">
-              <img src="../assets/images/articles-2-sm.png" alt="" class="mb-6">
+              <img src="../assets/images/articles-2-sm.png" alt="" class="mb-6 lg:hidden">
+              <img src="../assets/images/articles-2.png" alt="" class="hidden mb-6 lg:block">
               <div class="mb-6">
                 <h5 class="mb-2 text-xl font-black text-gray-500">窺探米其林三星主廚的絕密手藝</h5>
                 <p class="font-semibold text-gray-400">在這間隱世餐廳,來一場味蕾與靈魂的盛宴。幽微燈火下,透過巨匠大師的獨門料理,領略食材中蘊藏的大自然馨香脈絡。營造只屬於你我的私密小宇宙,沉浸其中,品嘗人...</p>
@@ -171,7 +173,7 @@
 
     <!-- 強檔活動 -->
 
-    <section class="bg-primary-200">
+    <section class="relative -z-10 bg-primary-200">
       <div class="container py-[48px] flex flex-col items-center text-center relative">
         <div class="mb-6">
           <h6 class="mb-3 font-bold text-accent-200">\ 母親節強檔活動 / </h6>
@@ -236,12 +238,21 @@
           </li>
         </ul>
         <a href="#" class="px-5 py-3 text-white rounded-full bg-accent-200">我想了解</a>
-        <img src="../assets/images/bg-1.png" alt="" class="absolute bottom-[-8px] left-0 hidden z-0 lg:block">
-        <img src="../assets/images/bg-2-sm.png" alt="" class="absolute bottom-[-8px] right-[-44px] z-0 lg:hidden">
-        <img src="../assets/images/bg-2.png" alt="" class="absolute bottom-[-8px] right-[-44px] hidden z-0 lg:block">
+        <img src="../assets/images/bg-1.png" alt="" class="absolute bottom-[-8px] left-0 hidden -z-10 lg:block">
+        <img src="../assets/images/bg-2-sm.png" alt="" class="absolute bottom-[-8px] right-[-44px] -z-10 lg:hidden">
+        <img src="../assets/images/bg-2.png" alt="" class="absolute bottom-[-8px] right-[-44px] hidden -z-10 lg:block">
       </div>
     </section>
 
+    <!-- 大家都在看 -->
+
+    <section>
+      <div class="container relative z-20">
+        
+      </div>
+    </section>
+
+    
     <%- include('./layout/footer'); -%>
 
     <script type="module" src="../main.js"></script>
