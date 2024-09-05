@@ -21,12 +21,13 @@ export default {
           200: '#569573',
         },
         'gray': {
-          DEFAULT: '#343A40',          
+          DEFAULT: '#343A40',  
+          100:'#F8F9FA',   
           200: '#DEE2E6',
           300: '#ADB5BD',
           400: '#6C757D',
           500: '#343A40',
-        }
+        },
       },
 
       fontSize: {
@@ -48,7 +49,12 @@ export default {
       backgroundImage: {
         'banner-sm': "url('/assets/images/banner-sm.png')",
         'banner': "url('/assets/images/banner.png')",
-      }
+      },
+
+      letterSpacing: {
+        wide10: '0.1rem',  // 定義一個自訂義的字母間距
+      },
+
     },
     
     container: {

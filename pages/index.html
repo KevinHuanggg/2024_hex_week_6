@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Serif+TC:wght@200..900&display=swap" rel="stylesheet">
     <title>index</title>
   </head>
-  <body class="font-serif bg-primary-100">
+  <body class="bg-primary-100">
     <%- include('./layout/header'); -%>
 
     <!-- banner -->
 
-    <section class="lg:py-20 lg:container">
+    <section class="border-t border-gray-300 lg:py-20 lg:container">
       <div class="bg-center bg-cover bg-banner-sm lg:bg-banner">
         <div class="pt-[377px] pb-12 text-white text-center lg:py-[228px] lg:ps-[61px] lg:text-start">
           <p class="mb-2 font-bold lg:mb-3 lg:text-xl lg:font-black">獻給新世代的生活風格誌</p>
@@ -247,8 +247,26 @@
     <!-- 大家都在看 -->
 
     <section>
-      <div class="container relative z-20">
-        
+      <div class="container relative z-20 py-[48px]">
+        <h6 class="mb-6 text-2xl font-black text-gray-500">大家都在看</h6>
+
+        <div class="overflow-hidden">
+          <div class="p-4 rounded-xl w-[324px] bg-white shadow-[0_2px_8px_0px_rgba(110, 107, 103,0.08)]">
+            <h6 class="mb-3 text-2xl font-black text-accent-200">酒精路跑地圖</h6>
+            <ul class="font-semibold text-gray-500">
+              <li>｜城市酒吧人氣榜,盤點當紅熱門酒吧</li>
+              <li>｜你要的調酒師在這裡！五月全台酒...</li>
+              <li>｜台南老宅手工酒藏,尋味百年人文釀意</li>
+            </ul>
+            <img class="w-full" src="/assets/images/hots-1-sm.png" alt="">
+            <div class="px-6 pt-4 pb-2">
+              <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#photography</span>
+              <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#travel</span>
+              <span class="inline-block px-3 py-1 mb-2 mr-2 text-sm font-semibold text-gray-700 bg-gray-200 rounded-full">#winter</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 

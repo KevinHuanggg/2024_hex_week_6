@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+
+  html {
+    @apply tracking-wide10;
+    @apply font-serif;
+  }
+  
   body {
     @apply leading-normal; /* leading-normal 預設為 1.5 */
   }
